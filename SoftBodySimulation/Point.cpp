@@ -1,10 +1,11 @@
 #include "Point.h"
 
-Point::Point(sf::Vector2f aPosition) :
-	mPosition		(aPosition),
-	mVelocity		(sf::Vector2f(0,0)),
-	mForce			(sf::Vector2f(0,0)),
-	mMass			(POINT_MASS)
+Point::Point(sf::Vector2f aPosition, float aRadius) :
+  mPosition			  (aPosition),
+  mVelocity			  (sf::Vector2f(0, 0)),
+  mForce			  (sf::Vector2f(0, 0)),
+  mRadius			  (aRadius),
+  mMass				  (point_mass)
 {
 
 }
@@ -15,11 +16,22 @@ Point::operator= (const Point& other)
 	mPosition = other.mPosition;
 	mVelocity = other.mVelocity;
 	mForce = other.mForce;
+	mRadius = other.mRadius;
 	mMass = other.mMass;
 	return *this;
 }
 
+float
+Point::getRadius()
+{
+  return mRadius;
+}
 
+void
+Point::setRadius(float aRadius)
+{
+  mRadius = aRadius;
+}
 
 sf::Vector2f
 Point::getPosition()

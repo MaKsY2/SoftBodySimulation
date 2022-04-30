@@ -63,3 +63,24 @@ void Block::setHeight(float aHeight)
 {
 	mHeight = aHeight;
 }
+
+sf::Vector2f Block::getPoint(size_t aPoint)
+{
+  if (aPoint == 0)
+  {
+	return mPosition;
+  }
+  if (aPoint == 1)
+  {
+	return mPosition + sf::Vector2f(mWidth, 0.0f);
+  }
+  if (aPoint == 2)
+  {
+	return mPosition + sf::Vector2f(mWidth, mHeight);
+  }
+  if (aPoint == 3)
+  {
+	return mPosition + sf::Vector2f(0.0f, mHeight);
+  }
+  return sf::Vector2f(0.0f, 0.0f);
+}

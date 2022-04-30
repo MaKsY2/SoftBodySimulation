@@ -4,38 +4,37 @@
 #include <utility>
 #include <SFML/Graphics.hpp>
 
-
-#define POINT_MASS 0.1
-
+const float point_mass = 0.1f;
+const float point_radius = 5.f;
 
 class Point
 {
 public:
-	Point(sf::Vector2f  aPosition);
-	~Point();
 
-	Point(Point& other);
+  Point(sf::Vector2f  aPosition, float aRadius);
+  Point(Point& other);
+  ~Point();
 
-	//set get 
-	sf::Vector2f getPosition();
-	sf::Vector2f  getVelocity();
-	sf::Vector2f  getForce();
-	float getMass();
+  sf::Vector2f getPosition();
+  sf::Vector2f  getVelocity();
+  sf::Vector2f  getForce();
+  float getMass();
+  float getRadius();
 
+  void setPosition(sf::Vector2f  aPosition);
+  void setVelocity(sf::Vector2f  aVelocity);
+  void setForce(sf::Vector2f  aForce);
+  void setRadius(float aRadius);
+  void setMass(float aMass);
 
-
-	void setPosition(sf::Vector2f  aPosition);
-	void setVelocity(sf::Vector2f  aVelocity);
-	void setForce(sf::Vector2f  aForce);
-	void setMass(float aMass);
-
-	Point& operator= (const Point& other);
+  Point& operator= (const Point& other);
 
 private:
-	sf::Vector2f  mPosition;
-	sf::Vector2f  mVelocity;
-	sf::Vector2f  mForce;
-	float mMass;
+  sf::Vector2f  mPosition;
+  sf::Vector2f  mVelocity;
+  sf::Vector2f  mForce;
+  float mRadius;
+  float mMass;
 };
 
 #endif // !POINT_H
