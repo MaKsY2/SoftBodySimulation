@@ -81,6 +81,16 @@ Point::setMass(float aMass)
 	mMass = aMass;
 }
 
+Projection Point::getProjection()
+{
+  return {
+	this->getPosition().x - this->getRadius() / 2,
+	this->getPosition().x + this->getRadius() / 2,
+	this->getPosition().y - this->getRadius() / 2,
+	this->getPosition().y + this->getRadius() / 2,
+  };
+}
+
 
 Point::~Point()
 {
@@ -92,5 +102,6 @@ Point::Point(Point& other)
 	mPosition = other.mPosition;
 	mVelocity = other.mVelocity;
 	mForce = other.mForce;
+	mRadius = other.mRadius;
 	mMass = other.mMass;
 }

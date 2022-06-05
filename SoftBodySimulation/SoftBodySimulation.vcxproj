@@ -153,6 +153,7 @@
     <ClInclude Include="Block.h" />
     <ClInclude Include="Graphics.h" />
     <ClInclude Include="Point.h" />
+    <ClInclude Include="service.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
