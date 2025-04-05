@@ -28,4 +28,4 @@ At the start of each frame:
 
 TBD...
 
-### NO MORE USELESS INSPIRATION EVER G0TIKKA
+Obsessed with projects again, no more useless people
