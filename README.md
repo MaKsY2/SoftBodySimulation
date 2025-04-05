@@ -1,15 +1,31 @@
-# How to run SoftBodySimulation
+### Soft body simulation project 
 
-### 1) Download your version of SFML from official page
+## Definition of done:
 
-https://www.sfml-dev.org/download/sfml/2.5.1/
+- Softbody element
+- Springs
+- Mass points
+- Custom env for mass points
 
-### 2) Call Makefile from main project's dirictory
 
-```
-make SFMLpath=/path/to/sfml/version
-```
+# Some sci-stuff 
 
-> Example: make SFMLpath=/Users/maksim/Documents/sfml/2.5.1_2
+## Mass point model
 
-### 3) Enjoy
+Parametrs:
+- x = Position vector
+- v - Velocity vector
+- F - Force vector
+- m - mass
+- delta_t - time between two frames
+
+At the start of each frame: 
+- F = 0
+- F += all forces applied to an object
+- v += (F * delta_t) / m
+- x += v * delta_t
+
+
+TBD...
+
+### NO MORE USELESS INSPIRATION EVER G0TIKKA
