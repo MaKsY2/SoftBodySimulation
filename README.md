@@ -1,5 +1,8 @@
 ### Soft body simulation project 
 
+SFML-3.0.0 Mac/Arm_64 Already in project
+
+
 ## Definition of done:
 
 - Softbody element

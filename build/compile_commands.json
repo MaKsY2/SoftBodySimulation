@@ -1,0 +1,26 @@
+[
+{
+  "directory": "/Users/shvydkiy/Documents/Code/cpp/SoftBodySimulation/build",
+  "command": "/Applications/Xcode-15.1.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/shvydkiy/Documents/Code/cpp/SoftBodySimulation/src -isystem /opt/homebrew/include -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode-15.1.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -o CMakeFiles/SimulationLib.dir/src/block.cpp.o -c /Users/shvydkiy/Documents/Code/cpp/SoftBodySimulation/src/block.cpp",
+  "file": "/Users/shvydkiy/Documents/Code/cpp/SoftBodySimulation/src/block.cpp",
+  "output": "CMakeFiles/SimulationLib.dir/src/block.cpp.o"
+},
+{
+  "directory": "/Users/shvydkiy/Documents/Code/cpp/SoftBodySimulation/build",
+  "command": "/Applications/Xcode-15.1.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/shvydkiy/Documents/Code/cpp/SoftBodySimulation/src -isystem /opt/homebrew/include -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode-15.1.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -o CMakeFiles/SimulationLib.dir/src/graphics.cpp.o -c /Users/shvydkiy/Documents/Code/cpp/SoftBodySimulation/src/graphics.cpp",
+  "file": "/Users/shvydkiy/Documents/Code/cpp/SoftBodySimulation/src/graphics.cpp",
+  "output": "CMakeFiles/SimulationLib.dir/src/graphics.cpp.o"
+},
+{
+  "directory": "/Users/shvydkiy/Documents/Code/cpp/SoftBodySimulation/build",
+  "command": "/Applications/Xcode-15.1.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/shvydkiy/Documents/Code/cpp/SoftBodySimulation/src -isystem /opt/homebrew/include -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode-15.1.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -o CMakeFiles/SimulationLib.dir/src/point.cpp.o -c /Users/shvydkiy/Documents/Code/cpp/SoftBodySimulation/src/point.cpp",
+  "file": "/Users/shvydkiy/Documents/Code/cpp/SoftBodySimulation/src/point.cpp",
+  "output": "CMakeFiles/SimulationLib.dir/src/point.cpp.o"
+},
+{
+  "directory": "/Users/shvydkiy/Documents/Code/cpp/SoftBodySimulation/build",
+  "command": "/Applications/Xcode-15.1.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/shvydkiy/Documents/Code/cpp/SoftBodySimulation/src -isystem /opt/homebrew/include -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode-15.1.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -o CMakeFiles/SoftBodySimulation.dir/src/source.cpp.o -c /Users/shvydkiy/Documents/Code/cpp/SoftBodySimulation/src/source.cpp",
+  "file": "/Users/shvydkiy/Documents/Code/cpp/SoftBodySimulation/src/source.cpp",
+  "output": "CMakeFiles/SoftBodySimulation.dir/src/source.cpp.o"
+}
+]
