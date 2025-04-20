@@ -9,12 +9,13 @@
 *.user
 *.userosscache
 *.sln.docstates
-
+*.vscode
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
 
 # Mono auto generated files
 mono_crash.*
+
 
 # Build results
 [Dd]ebug/
@@ -305,6 +306,15 @@ _Pvt_Extensions
 # Paket dependency manager
 .paket/paket.exe
 paket-files/
+
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+Makefile
+cmake_install.cmake
+install_manifest.txt
+CTestTestfile.cmake
+*.cmake
 
 # FAKE - F# Make
 .fake/
